@@ -27,6 +27,9 @@ Each Step:
 			a. Immediately contact the programmer
 	4. The server will display a successful message with: "Server Ready for Receiving"
 
+**If you are on the Rutgers Network and setting up the Server on any ILABS machine -- please use any ports more than 1024
+due to permission error.  Recommended to use PORT - 10000
+
 
 2. For the Client File:
 	1. Go into the "src" folder
