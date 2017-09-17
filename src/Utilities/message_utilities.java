@@ -8,15 +8,15 @@ public class message_utilities {
      * Function to create message string to send from client to server.
      * Parameter byte_size limits the amount of string "a" to append to
      * the main string.
-     * @param byte_size
-     * @return
+     * @param byte_size - The size that the message has to be.
+     * @return builder.toString - Returns the message with the correct byte size.
      */
 
     public static String byte_message_size(int byte_size)
     {
 
         //Append string characters to reach
-        String byte_message = new String("");
+        String byte_message = "";
         StringBuilder builder = new StringBuilder(byte_message);
 
         int size_of_message = 0;
