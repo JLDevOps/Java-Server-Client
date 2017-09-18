@@ -34,8 +34,8 @@ public class chat_client
         final long receiveTime = System.nanoTime();
         final long totalTime = receiveTime - sentTime;
         double totalSeconds = (totalTime/1000000000.0);
-        double halfTime = (totalTime/2);
-        System.out.println("Total Time from Send to Receive from Server: " + totalSeconds + " Seconds && Total Time to Send a Message: " + halfTime + "Seconds");
+        double halfTime = (totalSeconds/2);
+        System.out.println("Total Time from Send to Receive from Server: " + totalSeconds + " Seconds && Total Time to Send a Message: " + halfTime + " Seconds");
     }
 
     /**
