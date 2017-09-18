@@ -51,12 +51,13 @@ due to permission error.  Recommended to use PORT - 10000
     1. Recommended Settings/Arguments for Server:
         a. Same Host: (Any port number)
             1. java -classpath . Server.chat_server 10000
-        b. Different Host: (Use python script provided to find Ports available):
-            1. On the external server - run python port_scanner_open.py
-                1. Results should provide several open ports and the ip-address for the client to connect to.
-            2. java -classpath . Client.chat_client <address: hostname or ip> <port> <number of runs>
-                1. Example - using cpp.rutgers.edu
-                2. java -classpath . Client.chat_client 128.6.13.238 902 5
+
+4. Different Host: (Use python script provided to find Ports available):
+    1. On the external server - run python port_scanner_open.py
+        1. Results should provide several open ports and the ip-address for the client to connect to.
+        2. java -classpath . Client.chat_client <address: hostname or ip> <port> <number of runs>
+            1. Example - using cpp.rutgers.edu
+            2. java -classpath . Client.chat_client 128.6.13.238 10000 5
 
 Quick Commands:
 
